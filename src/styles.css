@@ -33,23 +33,14 @@ h2 {
 
 h3 {
   font-size: 24px;
+  letter-spacing: -1px;
   opacity: 0.7;
+  padding-top: 10px;
 }
-
 .navigation-links {
-  display: flex;
-  margin-top: 40px;
-  justify-content: center;
+  margin: 30px;
+  text-align: center;
 }
-
-.navigation-links a {
-  margin: 20px;
-  border-radius: 4px;
-  padding: 20px 15px;
-  text-decoration: none;
-  text-transform: capitalize;
-}
-
 .contact-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
@@ -65,7 +56,6 @@ p {
   margin: 20px;
   font-size: 18px;
   line-height: 1.5;
-  text-align: center;
 }
 
 .email-link {
@@ -89,11 +79,6 @@ p {
   margin-left: 10px;
 }
 
-.images {
-  display: flex;
-  justify-content: center;
-  margin: 20px;
-}
 @media (max-width: 576px) {
   h1 {
     font-size: 35px;
@@ -103,5 +88,18 @@ p {
   }
   h3 {
     font-size: 18px;
+  }
+  .yoga-app,
+  .weather-app,
+  .yogurt-app {
+    text-align: center;
+  }
+
+  p {
+    text-align: center;
+    line-height: 1.1;
+  }
+  .email-link {
+    font-size: 20px;
   }
 }
