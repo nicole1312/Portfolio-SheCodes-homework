@@ -1,7 +1,7 @@
 :root {
   --primary-color: #6c63ff;
   --secondary-color: #f5f2fe;
-  --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+  --box-shadow-color: 0 5px 10px rgba(0, 0, 0, 0.3);
 }
 
 body {
@@ -43,7 +43,7 @@ h3 {
 }
 .contact-link {
   background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-color);
   color: white;
 }
 
@@ -74,9 +74,8 @@ p {
 .weather-app,
 .yogurt-app {
   background: var(--primary-color);
-  box-shadow: var(--box-shadow);
+  box-shadow: var(--box-shadow-color);
   color: white;
-  margin-left: 10px;
 }
 
 @media (max-width: 576px) {
